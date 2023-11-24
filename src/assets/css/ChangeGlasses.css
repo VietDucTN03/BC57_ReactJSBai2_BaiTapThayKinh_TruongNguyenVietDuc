@@ -1,0 +1,66 @@
+.abc {
+  position: relative;
+}
+
+.background-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.head {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5); /* Màu đen trong suốt */
+  padding: 30px;
+  color: white;
+  width: 100%;
+  box-sizing: border-box; /* Màu chữ trắng để tăng độ đối lập */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  position: absolute;
+  top: 20%;
+  left: 11%;
+}
+
+.selectedGlass {
+  position: absolute;
+  top: 75px;
+  left: 125px;
+  z-index: 1;
+}
+
+.glassImg {
+  width: 50%;
+  margin-bottom: 60px;
+} 
+
+.glassInfo {
+  text-align: left;
+  background: hsla(21, 100%, 59%, 0.5);
+  margin: 7px 5px;
+  padding: 1px 10px;
+}
+
+.glassName {
+  color: #4822A9;
+  padding-top: 5px;
+}
+
+.glassDesc {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.glassesList {
+  text-align: center;
+  position: absolute;
+  top: 64%;
+  left: 25%;
+}
